@@ -1,0 +1,47 @@
+<Valmar>
+<append xpath="/items">
+<item name="drinkJarEmpty">
+		<property name="HoldType" value="3"/>
+		<property name="Meshfile" value="@:Other/Items/Food/emptyJarPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mglass"/>
+		<property name="Stacknumber" value="125"/> <!-- STK resource -->
+		<property name="Weight" value="10"/>
+		<property name="EconomicValue" value="6"/>
+		<property name="CraftingIngredientTime" value="9"/>
+		<property class="Action0">
+			<!-- UseAction -->
+			<property name="Class" value="ExchangeItem" />
+			<property name="Delay" value="1.0" />
+			<property name="Change_item_to" value="drinkJarRiverWater" />
+			<property name="Focused_blockname_1" value="workingKitchenSink" />
+			<property name="Focused_blockname_2" value="workingWallMountSink" />
+			<property name="Focused_blockname_3" value="workingFountain" />
+			<property name="Focused_blockname_4" value="workingDoubleFountain" />
+			<property name="Focused_blockname_5" value="workingToilet01" />
+			<property name="Focused_blockname_6" value="workingToilet02" />
+			<property name="Focused_blockname_7" value="workingToilet03" />
+			<property name="Focused_blockname_8" value="workingUrinal" />
+			<property name="Focused_blockname_9" value="workingWaterCooler" />
+			<property name="Focused_blockname_10" value="workingWaterCoolerSide" />
+			<property name="Focused_blockname_11" value="workingSodaFountain" />
+			<property name="Focused_blockname_12" value="workingCoffeeMaker" />
+			<property name="Focused_blockname_13" value="workingCoffeeMakerCommercial" />			
+			<property name="Sound_start" value="bucketfill_water" />
+		</property>
+		<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="ExchangeItem" />
+		<property name="Delay" value="1.0" />
+		<property name="Change_item_to" value="drinkJarRiverWater" />
+		<property name="Do_block_action" value="deplete1" />
+		<property name="Focused_blockname_1" value="water" />
+		<property name="Focused_blockname_2" value="waterMoving" />
+		<property name="Focused_blockname_3" value="waterStaticBucket" />
+		<property name="Focused_blockname_4" value="waterMovingBucket" />
+		<property name="Focused_blockname_5" value="terrWaterPOI" />
+		<property name="Sound_start" value="bucketfill_water" />
+	</property>
+	<property name="Group" value="Resources" />
+</item>
+</append>
+</Valmar>

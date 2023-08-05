@@ -1,0 +1,29 @@
+<Valmar>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderElectrical']">
+		  <item name="trapFire" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveKnockdown" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveShocked" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveBurning" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveStunned" count="1,2" prob="0.1"/>
+		  <item name="pressureplateLongtrapAdhesiveKnockdown" count="1,2" prob="0.1"/>
+		  <item name="pressureplateLongtrapAdhesiveShocked" count="1,2" prob="0.1"/>
+		  <item name="pressureplateLongtrapAdhesiveBurning" count="1,2" prob="0.1"/>
+		  <item name="pressureplateLongtrapAdhesiveStunned" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveKnockdownSpike" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveShockedSpike" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveBurningSpike" count="1,2" prob="0.1"/>
+		  <item name="trapAdhesiveStunnedSpike" count="1,2" prob="0.1"/>
+		  <item name="minersTNT" count="1,2" prob="0.1"/>
+		  <item name="trapSteelFireSpike" count="1,2" prob="0.1"/>
+		  <item name="trapNailMine" count="1,2" prob="0.1"/>
+		 </append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+		  <item name="trapGasCan" count="1,2" prob="0.1"/>
+		  <item name="gunTrapNailgun" count="1,2" prob="0.1"/>
+		</append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+		<item name="trapSchematic" count="1,2" prob="0.1"/>
+		 </append>
+</Valmar>

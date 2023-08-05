@@ -1,0 +1,22 @@
+<Valmar>
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']">
+		<item name="Biscuit Recipe" count="1,2" prob="0.1"/>
+		<item name="Biscuit With Jam Recipe" count="1,2" prob="0.1"/>
+		<item name="Ramen Soup Recipe" count="1,2" prob="0.1"/>
+		<item name="Bacon Egg Sandwich Recipe" count="1,2" prob="0.1"/>
+		<item name="Fish Pie Recipe" count="1,2" prob="0.1"/>
+		<item name="Grill Steak Recipe" count="1,2" prob="0.1"/>
+		<item name="Hamburger Recipe" count="1,2" prob="0.1"/>
+		<item name="Honey Ham Recipe" count="1,2" prob="0.1"/>
+		<item name="Grill Steak Sandwich Recipe" count="1,2" prob="0.1"/>
+		<item name="Health Drink Recipe" count="1,2" prob="0.1"/>
+		</append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='preparedFood']">
+		<item name="Bag Of Hot Chips" count="1,2" prob="0.1"/>
+		<item name="Bag Of Chips" count="1,2" prob="0.1"/>
+		<item name="Candy Bar" count="1,2" prob="0.1"/>
+		<item name="Ramen Noodles" count="1,2" prob="0.1"/>
+		</append>
+		
+</Valmar>

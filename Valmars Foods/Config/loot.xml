@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+  	<item name="Biscuit Recipe" loot_prob_template="veryLow"/>
+  	<item name="Biscuit With Jam Recipe" loot_prob_template="veryLow"/>
+  	<item name="Ramen Soup Recipe" loot_prob_template="veryLow"/>
+	</append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']">
+    <item name="Bacon Egg Sandwich Recipe" count="0,1" loot_prob_template="veryLow"/>
+    <item name="Fish Pie Recipe" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Grill Steak Recipe" count="0,1" loot_prob_template="veryLow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']">
+    <item name="Hamburger Recipe" count="0,1" loot_prob_template="veryLow"/>
+    <item name="Honey Ham Recipe" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Grill Steak Sandwich Recipe" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Health Drink Recipe" count="0,1" loot_prob_template="veryLow"/>
+  </append>
+  
+  <append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">
+    <item name="Bag Of Hot Chips" count="0,1" loot_prob_template="veryLow"/>
+    <item name="Bag Of Chips" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Candy Bar" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Ramen Noodles" count="0,1" loot_prob_template="veryLow" />
+  </append>
+
+</configs>

@@ -1,0 +1,6 @@
+<Valmar>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']">
+		<item name="sprayPaint" count="1,2" prob="0.1"/>
+		<item name="assortedDyes" count="1,2" prob="0.1"/>
+	</append>
+</Valmar>

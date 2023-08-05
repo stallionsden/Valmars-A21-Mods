@@ -1,0 +1,22 @@
+<Valmar>
+<append xpath="/recipes">
+<recipe name="AutoWall:Wood" count="1" craft_time="6">
+    <ingredient name="woodShapes:VariantHelper" count="6"/>
+    <ingredient name="resourceWood" count="12"/>
+	<ingredient name="resourceClayLump" count="24"/>
+    <ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="AutoWall:Concrete" count="1" craft_time="48">
+	<ingredient name="concreteShapes:VariantHelper" count="6"/>
+    <ingredient name="resourceConcreteMix" count="60"/>
+    <ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="AutoWall:cobblestoneBlock" count="1" craft_time="20">
+    <ingredient name="cobblestoneShapes:VariantHelper" count="6"/>
+    <ingredient name="resourceCobblestones" count="24"/>
+    <ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+</append>
+</Valmar>

@@ -1,0 +1,438 @@
+<Valmar>
+<remove xpath="/lootcontainers/lootcontainer[@name='airDrop']"></remove>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupAirDrop']">
+<!-- lootcontainer 34 Supply Crate General -->
+    <lootgroup name="SupplyMaterials" count="2,5">
+        <item name="resourceScrapBrass" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceFeather" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceGunPowder" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceNail" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceGlue" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceBulletCasing" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceDuctTape" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceScrapPolymers" count="0,5" loot_prob_template="veryLow"/>
+		<item name="resourceLockPick" count="0,5" loot_prob_template="veryLow" />
+		<item name="resourceSewingKit" count="0,5" loot_prob_template="veryLow" />		 
+        <item name="resourceScrapIron" count="0,5" loot_prob_template="veryLow" />
+        <item name="resourceRockSmallBundle" count="0,5" loot_prob_template="veryLow" />
+		<item name="resourceWoodBundle" count="0,5" loot_prob_template="veryLow" />
+		<item name="resourcePotassiumNitratePowderBundle" count="0,5" loot_prob_template="veryLow" />
+		<item name="resourceLeadBundle" count="0,5" loot_prob_template="veryLow" />
+		<item name="resourceCoalBundle" count="0,5" loot_prob_template="veryLow" />
+		<item name="resourceOilShaleBundle" count="0,5" loot_prob_template="veryLow" />	
+		</lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMaterials']">	
+    <lootgroup name="SupplySchematics" count="1,3">
+		<item name="modArmorHelmetLightSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorBandolierSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorInsulatedLinerSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorCoolingMeshSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorPlatingBasicSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorImprovedFittingsSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorStoragePocketSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorDoubleStoragePocketSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorMuffledConnectorsSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunBarrelExtenderSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunMuzzleBrakeSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunFlashlightSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunScopeSmallSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunScopeMediumSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunReflexSightSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunTriggerGroupSemiSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunBipodSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunForegripSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunRetractingStockSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunDuckbillSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunChokeSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunMagazineExtenderSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modShotgunSawedOffBarrelSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunCrippleEmSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunBowArrowRestSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunBowPolymerStringSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeTemperedBladeSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeSerratedBladeSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeWeightedHeadSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeStructuralBraceSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeErgonomicGripSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeFortifyingGripSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeClubBarbedWireSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeClubMetalSpikesSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeClubBurningShaftSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeGraveDiggerSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeWoodSplitterSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modFuelTankSmallSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modFuelTankLargeSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunScopeLargeSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunLaserSightSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunTriggerGroupBurst3Schematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunSoundSuppressorSilencerSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunTriggerGroupAutomaticSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modGunMeleeRadRemoverSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorPlatingReinforcedSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorTripleStoragePocketSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorAdvancedMuffledConnectorsSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorWaterPurifierSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modArmorCustomizedFittingsSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeBunkerBusterSchematic" count="0,1" loot_prob_template="veryLow"/>
+		<item name="modMeleeIronBreakerSchematic" count="0,1" loot_prob_template="veryLow"/>
+	</lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplySchematics']">
+	<lootgroup name="SupplyPerkBooks" count="1,3">	
+		<item name="bookRangersArrowRecovery" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookRangersCripplingShot" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookRangersKnockdown" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookRangersFlamingArrows" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookRangersAPAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookRangersExplodingBolts" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookRangersForestGuide" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookArtOfMiningLuckyStrike" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookArtOfMiningDiamondTools" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookArtOfMiningCoffee" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookArtOfMiningBlackStrap" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookArtOfMiningPallets" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookArtOfMiningAvalanche" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookArtOfMiningDamage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookAutoWeaponsDamage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookAutoWeaponsRagdoll" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookAutoWeaponsMaintenance" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookAutoWeaponsRecoil" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookAutoWeaponsDrumMag" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookAutoWeaponsUncontrolledBurst" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookAutoWeaponsMachineGuns" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookBatterUpFoulBalls" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookBatterUpBigHits" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookBatterUpStealingBases" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookBatterUpKnockdown" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookBatterUpSlowPitch" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookBatterUpMaintenance" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookBatterUpMetalChain" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookEnforcerAPAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookEnforcerApparel" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookEnforcerCriminalPursuit" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookEnforcerHPAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookEnforcerDamage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookEnforcerIntimidation" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookEnforcerPunks" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookFiremansAlmanacSpeed" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookFiremansAlmanacAxes" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookFiremansAlmanacEquipment" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookFiremansAlmanacPrevention" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookFiremansAlmanacHarvest" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookFiremansAlmanacHeat" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookFiremansAlmanacMolotov" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookGreatHeistAdrenalineFall" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookGreatHeistGoldRush" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookGreatHeistClaimed" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookGreatHeistGems" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookGreatHeistMotionDetection" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookGreatHeistSafes" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookGreatHeistSprintSneak" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookHuntingJournalBears" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookHuntingJournalCoyotes" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookHuntingJournalDeer" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookHuntingJournalMountainLions" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookHuntingJournalVultures" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookHuntingJournalWolves" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookHuntingJournalSelfDefense" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookLuckyLooterAmmunition" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookLuckyLooterBooks" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookLuckyLooterBrass" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookLuckyLooterDukes" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookLuckyLooterFood" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookLuckyLooterLead" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookLuckyLooterMedical" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNeedleAndThreadDesertWear" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNeedleAndThreadDusters" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNeedleAndThreadFootwear" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNeedleAndThreadLegwear" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNeedleAndThreadPockets" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNeedleAndThreadPufferCoats" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNeedleAndThreadWinterWear" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNightStalkerArchery" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNightStalkerBlades" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNightStalkerSilentNight" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNightStalkerSlumberParty" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNightStalkerStealthDamage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNightStalkerThiefAdrenaline" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookNightStalkerTwilightThief" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookPistolPeteAPAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookPistolPeteDamage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookPistolPeteHPAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookPistolPeteMaintenance" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookPistolPeteSteadyHand" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookPistolPeteSwissKnees" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookPistolPeteTakeAim" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookShotgunMessiahBreachingSlugs" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookShotgunMessiahDamage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookShotgunMessiahLimbShot" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookShotgunMessiahMaintenance" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookShotgunMessiahMagazine" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookShotgunMessiahPartyStarter" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookShotgunMessiahSlugs" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookSniperAPAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookSniperControlledBreathing" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookSniperCripplingShot" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookSniperDamage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookSniperHeadShot" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookSniperReload" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookSniperHPAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookUrbanCombatAdrenalineRush" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookUrbanCombatCigar" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookUrbanCombatRoomClearing" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookUrbanCombatJumping" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookUrbanCombatLandMines" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookUrbanCombatLanding" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookUrbanCombatSneaking" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookWasteTreasuresAcid" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookWasteTreasuresCloth" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookWasteTreasuresCoffins" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookWasteTreasuresDoors" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookWasteTreasuresHoney" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookWasteTreasuresSinks" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookWasteTreasuresWater" count="0,1" loot_prob_template="veryLow"/>		
+		<item name="bookTechJunkie1Damage" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookTechJunkie2Maintenance" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookTechJunkie3APAmmo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookTechJunkie4Shells" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookTechJunkie5Repulsor" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookTechJunkie6BatonCharge" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bookTechJunkie7Hydraulics" count="0,1" loot_prob_template="veryLow"/>		
+		</lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyPerkBooks']">	
+	<lootgroup name="SupplyFood" count="1,3">
+		<item name="foodCanBeef" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanCatfood" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanChicken" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanChili" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanDogfood" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanSham" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanLamb" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanMiso" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanPasta" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanPeas" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanSalmon" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanSoup" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanStock" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanTuna" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCanPears" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodHoney" count="0,5" loot_prob_template="veryLow" />
+		<item name="foodCornMeal" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugAtomJunkies" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugCovertCats" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugEyeKandy" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugHackers" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugHealthBar" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugJailBreakers" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugNerdTats" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugOhShitzDrops" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugRockBusters" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugSkullCrushers" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugSugarButts" count="0,5" loot_prob_template="veryLow" />
+		</lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyFood']">
+	<lootgroup name="SupplyParts" count="1,3">
+		<item name="gunMGT1AK47Parts" count="0,4" loot_prob_template="veryLow" />
+		<item name="gunHandgunT1PistolParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="gunBowT1WoodenBowParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="gunRifleT1HuntingRifleParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="gunShotgunT1DoubleBarrelParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="gunExplosivesT3RocketLauncherParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="gunBotRoboticsParts" count="0,4" loot_prob_template="veryLow" />		
+		<item name="meleeWpnBatonT2StunBatonParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="meleeWpnBladeT3MacheteParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="meleeWpnSpearT3SteelSpearParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="meleeWpnClubT3SteelClubParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="meleeWpnSledgeT3SteelSledgehammerParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="meleeWpnKnucklesT3SteelKnucklesParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="meleeToolAxeT3ChainsawParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="meleeToolAllSteelParts" count="0,4" loot_prob_template="veryLow" />
+		<item name="armorMilitarySetParts" count="0,4" loot_prob_template="veryLow" />
+	 </lootgroup>
+	</insertAfter>
+	 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyParts']">
+    <lootgroup name="SupplyWeapons" count="1,3">
+	   <item name="gunHandgunT0PipePistol" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunShotgunT0PipeShotgun" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunRifleT0PipeRifle" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunMGT0PipeMachineGun" count="0,1" loot_prob_template="veryLow" />
+	   <item name="gunHandgunT1Pistol" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunHandgunT3SMG5" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunHandgunT2Magnum44" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunHandgunT3DesertVulture" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunShotgunT1DoubleBarrel" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunShotgunT2PumpShotgun" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunShotgunT3AutoShotgun" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunRifleT1HuntingRifle" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunRifleT2LeverActionRifle" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunRifleT3SniperRifle" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunMGT1AK47" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunMGT2TacticalAR" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunMGT3M60" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunExplosivesT3RocketLauncher" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBowT0PrimitiveBow" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBowT1WoodenBow" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBowT3CompoundBow" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBowT1IronCrossbow" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBowT3CompoundCrossbow" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBotT1JunkSledge" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBotT2JunkTurret" count="0,1" loot_prob_template="veryLow" />
+		<item name="gunBotT3JunkDrone" count="0,1" loot_prob_template="veryLow" />
+		</lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyWeapons']">	
+	<lootgroup name="Supplymedical" count="1,3">
+        <item name="medicalFirstAidKit" count="0,5" loot_prob_template="veryLow" />
+		<item name="toolBeaker" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugAntibiotics" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugSteroids" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugRecog" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugFortBites" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugPainkillers" count="0,5" loot_prob_template="veryLow" />
+		<item name="medicalFirstAidBandage" count="0,5" loot_prob_template="veryLow" />
+		<item name="medicalBandage" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugSteroids" count="0,5" loot_prob_template="veryLow" />
+		<item name="medicalBloodBag" count="0,5" loot_prob_template="veryLow" />
+		<item name="drugVitamins" count="0,5" loot_prob_template="veryLow" />
+		<item name="medicalSplint" count="0,5" loot_prob_template="veryLow" />
+       </lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='Supplymedical']">
+	<lootgroup name="SupplyAmmo" count="1,3">
+        <item name="ammo9mmBulletBall" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammo9mmBulletHP" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammo9mmBulletAP" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammo44MagnumBulletBall" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammo44MagnumBulletHP" count="15,22" loot_prob_template="veryLow" />
+        <item name="ammo44MagnumBulletAP" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammo762mmBulletBall" count="0,15" loot_prob_template="veryLow" />
+		<item name="ammo762mmBulletHP" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammo762mmBulletAP" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoShotgunShell" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoShotgunSlug" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoShotgunBreachingSlug" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoJunkTurretRegular" count="0,15" loot_prob_template="veryLow" />
+		<item name="ammoJunkTurretShell" count="0,15" loot_prob_template="veryLow" />
+		<item name="ammoJunkTurretAP" count="0,15" loot_prob_template="veryLow" />
+		<item name="ammoRocketHE" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoRocketFrag" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoGasCan" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoArrowStone" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoArrowIron" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoArrowSteelAP" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoArrowFlaming" count="0,15" loot_prob_template="veryLow" />
+		<item name="ammoArrowExploding" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoCrossbowBoltStone" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoCrossbowBoltIron" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoCrossbowBoltSteelAP" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoCrossbowBoltFlaming" count="0,15" loot_prob_template="veryLow" />
+        <item name="ammoCrossbowBoltExploding" count="0,15" loot_prob_template="veryLow" />
+		</lootgroup>
+	</insertAfter>	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmo']">	
+	<lootgroup name="SupplyAmmoBundles" count="1,3">
+        <item name="ammoBundle9mmBulletBall" count="0,5" loot_prob_template="veryLow" />
+		<item name="ammoBundle9mmBulletHP" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundle9mmBulletAP" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundle44MagnumBulletBall" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundle44MagnumBulletHP" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundle44MagnumBulletAP" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundle762mmBulletBall" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundle762mmBulletHP" count="0,5" loot_prob_template="veryLow" />
+		<item name="ammoBundle762mmBulletAP" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleShotgunShell" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleShotgunSlug" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleShotgunBreachingSlug" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleJunkTurretRegular" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleJunkTurretShell" count="0,5" loot_prob_template="veryLow" />
+		<item name="ammoBundleJunkTurretAP" count="0,5" loot_prob_template="veryLow" />
+		<item name="ammoBundleArrowStone" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleArrowIron" count="0,5" loot_prob_template="veryLow" />
+		<item name="ammoBundleArrowSteelAP" count="0,5" loot_prob_template="veryLow" />
+		<item name="ammoBundleArrowFlaming" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleArrowExploding" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleCrossbowBoltStone" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleCrossbowBoltIron" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleCrossbowBoltSteelAP" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleCrossbowBoltFlaming" count="0,5" loot_prob_template="veryLow" />
+        <item name="ammoBundleCrossbowBoltExploding" count="0,5" loot_prob_template="veryLow" />
+	</lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmoBundles']">
+    <lootgroup name="SupplyTools" count="1,3">
+        <item name="meleeToolSalvageT1Wrench" count="0,1" loot_prob_template="veryLow" />
+        <item name="meleeToolRepairT0StoneAxe" count="0,1" loot_prob_template="veryLow" />
+        <item name="meleeToolRepairT1ClawHammer" count="0,1" loot_prob_template="veryLow" />
+        <item name="meleeToolRepairT3Nailgun" count="0,1" loot_prob_template="veryLow" />
+        <item name="meleeToolAxeT1IronFireaxe" count="0,1" loot_prob_template="veryLow" />
+        <item name="meleeToolPickT1IronPickaxe" count="0,1" loot_prob_template="veryLow" />
+        <item name="meleeToolShovelT2SteelShovel" count="0,1" loot_prob_template="veryLow" />  
+        <item name="meleeToolAxeT3Chainsaw" count="0,1" loot_prob_template="veryLow" />  
+        <item name="meleeToolPickT3Auger" count="0,1" loot_prob_template="veryLow" />  
+		<item name="meleeToolAxeT3Chainsaw" count="0,1" loot_prob_template="veryLow" />  
+        <item name="meleeToolSalvageT1Wrench" count="0,1" loot_prob_template="veryLow" />  
+        <item name="meleeToolSalvageT2Ratchet" count="0,1" loot_prob_template="veryLow" /> 
+		<item name="meleeToolSalvageT3ImpactDriver" count="0,1" loot_prob_template="veryLow" /> 
+        <item name="meleeToolPaintTool"  count="0,1" loot_prob_template="veryLow" />
+		<item name="meleeToolWireTool" count="0,1" loot_prob_template="veryLow" />
+        </lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyTools']">
+    <lootgroup name="SupplyAutomotive" count="1,3">
+        <item name="vehicleBicycleChassis" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicleBicycleHandlebars" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicleWheels" count="0,1" loot_prob_template="veryLow" />
+        <item name="vehicleMinibikeChassis" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicleMinibikeHandlebars" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicleMotorcycleChassis" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicleMotorcycleHandlebars" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicle4x4TruckChassis" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicle4x4TruckAccessories" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicleGyroCopterChassis" count="0,1" loot_prob_template="veryLow" />
+		<item name="vehicleGyroCopterAccessories" count="0,1" loot_prob_template="veryLow" />
+		<item name="smallEngine" count="0,1" loot_prob_template="veryLow" />
+		<item name="carBattery" count="0,1" loot_prob_template="veryLow" />
+		<item name="ammoGasCan" count="150,500" loot_prob_template="veryLow" />
+        </lootgroup>
+	</insertAfter>	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAutomotive']">	
+    <lootgroup name="SupplyGroups" count="2,4">
+		<item group="SupplyMaterials" count="0,1" loot_prob_template="veryLow" />
+        <item group="SupplyFood" count="0,1" loot_prob_template="veryLow" />
+        <item group="SupplyWeapons" count="0,1" loot_prob_template="veryLow" />
+        <item group="SupplySchematics" count="0,1" loot_prob_template="veryLow" />
+		<item group="SupplyPerkBooks" count="0,1" loot_prob_template="veryLow" />
+		<item group="Supplymedical" count="0,1" loot_prob_template="veryLow" />
+		<item group="SupplyParts" count="0,1" loot_prob_template="veryLow" />
+        <item group="SupplyAutomotive" count="0,1" loot_prob_template="veryLow" />
+        <item group="SupplyAmmo" count="0,1" loot_prob_template="veryLow" />
+		<item group="SupplyAmmoBundles" count="0,1" loot_prob_template="veryLow" />
+        <item group="SupplyTools" count="0,1" loot_prob_template="veryLow" />
+    </lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyGroups']">
+    <lootgroup name="SupplyGeneric" count="all">
+        <item group="groupApparelClothes"/>
+        <item group="seeds" count="0,5" loot_prob_template="veryLow" />
+        <item group="booksAllScaled" count="0,5" loot_prob_template="veryLow" />
+       </lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyGeneric']">
+    <lootgroup name="SupplyCrate" count="all">
+        <item group="SupplyGeneric"/>
+        <item group="SupplyGroups"/>
+    </lootgroup>
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@name='playerFileCabinet']" >	
+	<lootcontainer name="airDrop" count="2" size="9,9" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+     <item group="SupplyCrate"/>
+	 <item group="groupAirDrop"/>
+    </lootcontainer>			
+</insertAfter> 
+</Valmar>
+
+

@@ -1,0 +1,26 @@
+<Valmar>	
+	<append xpath="/blocks">
+	<block name="dyeStation">
+		<property name="CustomIcon" value="workbench"/>
+		<property name="CustomIconTint" value="B5A6B4"/>
+        <property name="DescriptionKey" value="dyeStationDesc"/>
+        <property name="Material" value="Mwood" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Model" value="Entities/Crafting/woodWorkBenchPrefab"/>
+		<property name="ModelOffset" value="0,.5,0"/>
+		<property name="MultiBlockDim" value="2,2,1"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="WaterFlow" value="permitted"/>
+        <drop event="Destroy" name="woodDebris" count="1" />
+        <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+        <property name="Class" value="Workstation" />
+        <property class="Workstation">
+            <property name="Modules" value="output,input"/>
+        </property>
+        <property name="Group" value="Basics" />
+        <property class="RepairItems">
+            <property name="wood" value="10" />
+        </property>
+    </block>
+		</append>		
+</Valmar>

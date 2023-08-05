@@ -1,0 +1,23 @@
+<Valmar>
+<append xpath="/lootcontainers/lootgroup[@name='groupRottenChest01']">	
+		<item name="bowl" count="0,1" loot_prob_template="medLow" />
+		<item name="dinnerPlate" count="0,1" loot_prob_template="medLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">	
+		<item name="bowl" count="0,1" loot_prob_template="low" />
+		<item name="dinnerPlate" count="0,1" loot_prob_template="low" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupJunk01']">	
+		<item name="bowl" count="0,1" loot_prob_template="med" />
+		<item name="dinnerPlate" count="0,1" loot_prob_template="med" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupBackpacks01']">	
+		<item name="bowl" count="0,1" loot_prob_template="low" />
+		<item name="dinnerPlate" count="0,1" loot_prob_template="low" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']">	
+		<item name="bowl" count="0,3" loot_prob_template="low" />
+		<item name="dinnerPlate" count="0,3" loot_prob_template="low" />
+</append>
+
+</Valmar>

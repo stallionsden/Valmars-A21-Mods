@@ -1,0 +1,110 @@
+<Valmar>
+	<append xpath="/blocks">
+	<!-- Expanded Trap Mod -->
+    <block name="chickenCoop">
+	<property name="CustomIcon" value="animalSnare" />
+    <property name="DescriptionKey" value="chickenCoopDesc"/>
+    <property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mhay" />
+    <property name="Shape" value="ModelEntity" />
+	<property name="Model" value="Entities\OutdoorDecor\hayBaleSquarePrefab"/>
+   <property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="2,1,1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="UnlockedBy" value="recipebookAnimalTraps"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+    <property name="UpgradeRated.ToBlock" value="chickenCoop2" />
+    <property name="UpgradeRated.Rate" value="63" />
+    <property class="RepairItems">
+        <property name="resourceYuccaFibers" value="10" />
+    </property>
+    <drop event="Destroy" count="0" />
+  </block>
+    <block name="chickenCoop2">
+    <property name="CustomIcon" value="chickenCoop" />
+    <property name="Material" value="Mhay" />
+	<property name="IsTerrainDecoration" value="true"/>
+    <property name="Shape" value="ModelEntity" />
+	<property name="Model" value="Entities\OutdoorDecor\hayBaleRoundPrefab"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="2,2,1"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+    <property name="Class" value="PlantGrowing" />
+    <property class="PlantGrowing">
+    <property name="FertileLevel" value="0" />
+    <property name="Next" value="chickenNest" />
+    <property name="GrowthRate" value="3" />
+    <property name="LightLevelStay" value="0" />
+    <property name="IsRandom" value="false" />
+   <property name="IsGrowOnTopEnabled" value="false" />
+    <property name="GrowOnTop" value="chickenNest" param1="1" param2="chickenNest" />
+    </property>
+    <drop event="Destroy" count="0" />
+    <drop event="Harvest" name="rawMeat" count="2" />
+  </block>
+    <block name="chickenNest">
+    <property name="Class" value="Loot" />
+    <property name="Material" value="Mwood_weak" />
+    <property name="Shape" value="ModelEntity"/> 
+	<property name="Model" value="@:Entities/LootContainers/birdnestPrefab.prefab"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="OnlySimpleRotations" value="true"/>
+    <property name="IsTerrainDecoration" value="true" />
+	<property name="GndAlign" value="1"/>
+	<property name="LootList" value="chickenNest" />
+	<property name="DowngradeBlock" value="chickenCoop" />
+	<drop event="Destroy" count="0" prob="1" />
+  </block>
+    <block name="animalSnare">
+    <property name="LightOpacity" value="0"/>
+        <property name="DescriptionKey" value="animalSnareDesc"/>
+        <property name="Material" value="snare" />
+		<property name="Model" value="Entities/Industrial/hoistFrameSpreaderPrefab"/>
+		<property name="MultiBlockDim" value="3,2,3"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="UnlockedBy" value="recipebookAnimalTraps"/>
+        <property name="Shape" value="ModelEntity" />
+        <drop event="Destroy" name="woodDebris" count="0" />
+        <property name="Place" value="TowardsPlacer" />
+        <property name="Class" value="UpgradeRated" />
+        <property name="UpgradeRated.ToBlock" value="animalbaitedsnare" />
+        <property name="UpgradeRated.Rate" value="63" />
+    </block>
+    <block name="animalbaitedsnare">
+    <property name="LightOpacity" value="0"/>
+        <property name="CustomIcon" value="animalSnare" />
+        <property name="Material" value="snare" />
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Model" value="Entities/OutdoorDecor/largePetCagePrefab"/>
+        <property name="Shape" value="ModelEntity" />
+        <drop event="Destroy" name="woodDebris" count="0" />
+        <property name="Class" value="PlantGrowing" />
+        <property class="PlantGrowing">
+        <property name="Next" value="BaitedSnareCaptured" />
+        <property name="GrowthRate" value="3" />
+        <property name="FertileLevel" value="0" />
+        <property name="IsRandom" value="false" />
+        </property>
+    </block>
+    <block name="BaitedSnareCaptured">
+    <property name="LightOpacity" value="0"/>
+        <property name="CustomIcon" value="animalSnare" />
+		<property name="IsTerrainDecoration" value="true"/>
+        <property name="Class" value="Loot" />
+        <property name="LootList" value="animalSnare" />
+		<property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>
+        <property name="Material" value="Mplastics" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="HeatMapStrength" value="5"/>
+        <property name="HeatMapTime" value="1200"/>
+        <property name="HeatMapFrequency" value="1"/>
+		<property name="DowngradeBlock" value="animalSnare" />
+        <drop event="Destroy" count="0" />
+    <property name="RotationAllowed" value="pivotOnFloor" />
+    <property name="Place" value="Door" />
+        </block>
+ 	</append>	
+</Valmar>

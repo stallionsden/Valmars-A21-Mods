@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Valmars_Disable_Falling_Trees" />
+  <Author value="Valmar" />
+  <Description value="Disables trees from falling possibly killing you." />
+  <DisplayName value="Valmars Disable Falling Trees" />
+  <Version value="21.0.49.0" />
+  <Website value="" />
+</xml>

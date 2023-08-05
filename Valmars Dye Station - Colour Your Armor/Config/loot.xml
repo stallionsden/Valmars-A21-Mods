@@ -1,0 +1,19 @@
+<stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='groupJunk01']">	
+		<item name="sprayPaint" count="0,1" loot_prob_template="veryLow" />
+	<item name="assortedDyes" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">	
+		<item name="sprayPaint" count="0,1" loot_prob_template="veryLow" />
+	<item name="assortedDyes" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupBackpacks01']">	
+		<item name="sprayPaint" count="0,1" loot_prob_template="veryLow" />
+	<item name="assortedDyes" count="0,1" loot_prob_template="veryLow" />
+</append>
+	<append xpath="/lootcontainers/lootgroup[@name='dyes']">	
+		<item name="sprayPaint" count="0,1" loot_prob_template="veryLow" />
+		<item name="assortedDyes" count="0,1" loot_prob_template="veryLow" />
+</append>
+
+</stallionsden>

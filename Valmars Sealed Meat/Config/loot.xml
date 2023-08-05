@@ -1,0 +1,14 @@
+<Valmar>
+<append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">	
+		<item name="Clingwrap" count="0,8" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupJunk01']">	
+		<item name="Clingwrap" count="0,3" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupGarbage']">	
+		<item name="Clingwrap" count="0,3" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='cannedfood']">	
+		<item name="Clingwrap" count="0,5" loot_prob_template="veryLow" />
+</append>
+</Valmar>

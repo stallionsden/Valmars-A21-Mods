@@ -1,0 +1,9 @@
+<Valmar>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoAll']">
+		<item name="9mmBulletINC" count="1,2" prob="0.1"/>
+		<item name="44MagBulletINC" count="1,2" prob="0.1"/>
+		<item name="762mmBulletINC" count="1,2" prob="0.1"/>
+		<item name="SiegeShell" count="1,2" prob="0.1"/>
+		<item name="shotgunShellINC" count="1,2" prob="0.1"/>
+		</append>
+</Valmar>

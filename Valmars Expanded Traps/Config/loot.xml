@@ -1,0 +1,40 @@
+<Valmar>
+<!-- LOOT GROUPS -->
+<append xpath="/lootcontainers/lootgroup[@name='groupMoPower04']" >
+	 <item name="trapSchematic" count="0,2" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot04']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupForge01']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot02']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot01']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>	
+<append xpath="/lootcontainers/lootgroup[@name='groupJunk02']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	 <item name="trapSchematic" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupGarbage']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupRareAutomotive']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupToolsT2']" >
+	 <item name="gunTrapNailgun" count="0,1" loot_prob_template="veryLow" />
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs03']" >
+	 <item name="gunTrapNailgun" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupPopNPillsCrate04']" >
+	 <item name="trapGasCan" count="0,2" loot_prob_template="veryLow" />
+	</append>
+	<!-- LOOT GROUPS -->
+	
+</Valmar>

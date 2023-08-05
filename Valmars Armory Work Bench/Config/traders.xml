@@ -1,0 +1,8 @@
+<Valmar>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+		<item name="weldingTorch" count="1" prob="0.1"/>
+		</append>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']">
+		<item name="sewingKit" count="1" prob="0.1"/>
+		</append>
+</Valmar>

@@ -1,0 +1,11 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+9mmBulletINC,,items,Item,New,9mm Incendiary Bullet,,,,,
+44MagBulletINC,,items,Item,New,44. Magnum Incendiary Bullet,,,,,
+762mmBulletINC,,items,Item,New,762mm Incendiary Bullet,,,,,
+BulletINCDesc,,items,Item,New,These bullets have been modified to ignite the target on fire on impact.,,,,,
+SiegeShell,,items,Item,New,Siege Shell,,,,,
+SiegeShellDesc,,items,Item,New,These shotgun shells have been modified to maximize block damage at the cost of entity damage.,,,,,
+shotgunShellINC,,items,Item,New,Shotgun Incendiary Shell,,,,,
+ShotgunShellINCDesc,,items,Item,New,These shotgun shells have been modified to ignite the target on fire on impact.,,,,,
+HollowTip,,items,Item,New,Hollow Tip,,,,,
+HollowTipDesc,,items,Item,New,These bullet tips have have been hollowed out to maximize damage.,,,,,

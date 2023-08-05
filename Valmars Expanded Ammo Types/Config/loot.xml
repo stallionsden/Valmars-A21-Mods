@@ -1,0 +1,40 @@
+<Valmar>
+<append xpath="/lootcontainers/lootgroup[@name='groupAmmoLarge']" >
+		<item name="9mmBulletINC" count="0,12" loot_prob_template="medLow"/>
+		<item name="44MagBulletINC" count="0,12" loot_prob_template="medLow"/>		
+		<item name="762mmBulletINC" count="0,12" loot_prob_template="medLow"/>
+		<item name="SiegeShell" count="0,12" loot_prob_template="medLow"/>
+		<item name="shotgunShellINC" count="0,12" loot_prob_template="medLow"/>
+		</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsHighMedLow']" >
+		<item name="9mmBulletINC" count="0,12" loot_prob_template="medLow"/>
+		<item name="44MagBulletINC" count="0,12" loot_prob_template="medLow"/>		
+		<item name="762mmBulletINC" count="0,12" loot_prob_template="medLow"/>
+		<item name="SiegeShell" count="0,12" loot_prob_template="medLow"/>
+		<item name="shotgunShellINC" count="0,12" loot_prob_template="medLow"/>
+		</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_DeadEye']" >
+		<item name="762mmBulletINC" count="0,5" loot_prob_template="medLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Boomstick']" >
+		<item name="SiegeShell" count="0,5" loot_prob_template="medLow"/>
+		<item name="shotgunShellINC" count="0,5" loot_prob_template="medLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger02']" >
+		<item name="9mmBulletINC" count="0,5" loot_prob_template="medLow"/>
+		<item name="44MagBulletINC" count="0,5" loot_prob_template="medLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']" >
+		<item name="9mmBulletINC" count="0,5" loot_prob_template="medLow"/>
+		<item name="44MagBulletINC" count="0,5" loot_prob_template="medLow"/>		
+		<item name="762mmBulletINC" count="0,5" loot_prob_template="medLow"/>
+		<item name="SiegeShell" count="0,5" loot_prob_template="medLow"/>
+		<item name="shotgunShellINC" count="0,5" loot_prob_template="medLow"/>
+		</append>
+ 
+</Valmar>

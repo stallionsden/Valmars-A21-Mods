@@ -1,0 +1,41 @@
+<Valmar>
+<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffsBooks']">	
+		<item name="recipebookAnimalTraps" count="0,1" loot_prob_template="veryLow" />
+</append>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupHiddenStash']">
+         <!-- Snares -->
+    <lootgroup name="meat+hide" count="0,1" >
+        <item name="foodRawMeat" count="0,3" loot_prob_template="low"/>
+        <item name="resourceLeather" count="0,5" loot_prob_template="low"/>
+        <item name="resourceAnimalFat" count="0,3" loot_prob_template="low" /> 
+    </lootgroup>
+    <lootgroup name="bigmeat+hide" count="0,1">
+        <item name="foodRawMeat" count="0,3" loot_prob_template="low"/>
+        <item name="resourceLeather" count="0,8" loot_prob_template="low" />  
+        <item name="resourceAnimalFat" count="0,3" loot_prob_template="low"/> 
+    </lootgroup>
+    <lootgroup name="CapturedBird" count="0,1" >
+        <item name="foodRawMeat" count="0,3" loot_prob_template="low"/>
+        <item name="resourceFeather" count="0,5" loot_prob_template="low"/> 
+        <item name="foodEgg" count="0,4" loot_prob_template="low" />
+		  <item name="resourceBone" count="0,4" loot_prob_template="low" />
+    </lootgroup>
+	<lootgroup name="CapturedRabbit" count="0,1">
+        <item name="foodRawMeat" count="0,4" loot_prob_template="low"/>
+        <item name="resourceFeather" count="0,5" loot_prob_template="low"/> 
+        <item name="resourceBone" count="0,4" loot_prob_template="low" />
+    </lootgroup>
+	</insertAfter>
+	<append xpath="/lootcontainers">
+<lootcontainer name="chickenNest" count="1,3" size="8,9" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+    <item name="foodEgg" count="0,4" loot_prob_template="low" />
+	<item group="CapturedBird" count="0,2" loot_prob_template="low" />
+    <item name="resourceFeather" count="0,15" loot_prob_template="low" />
+</lootcontainer>
+    <lootcontainer name="animalSnare" count="1,3" size="8,9" destroy_on_close="true" sound_open="UseActions/open_animal" sound_close="UseActions/close_animal" open_time="2.5" loot_quality_template="qualBaseTemplate">
+        <item group="meat+hide" count="0,3" loot_prob_template="low" />
+        <item group="CapturedRabbit" count="0,2" loot_prob_template="low" />
+        <item group="bigmeat+hide" count="0,1" loot_prob_template="low" />
+    </lootcontainer>
+</append>
+</Valmar>

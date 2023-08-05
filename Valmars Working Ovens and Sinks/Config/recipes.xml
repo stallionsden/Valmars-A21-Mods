@@ -1,0 +1,111 @@
+<Valmar>
+<append xpath="/recipes">
+        <!--Working Ovens and Sinks Mod -->
+    <recipe name="workstationOvenWhite" count="1" scrapable="False" >
+        <ingredient name="resourceForgedIron" count="20" />
+        <ingredient name="toolCookingGrill" count="2" />
+		<ingredient name="modDyeRed" count="1" />
+		<ingredient name="modDyeGreen" count="1" />
+		<ingredient name="modDyeBlue" count="1" />
+    </recipe>
+	
+	<recipe name="workstationOvenGrey" count="1" scrapable="False" >
+        <ingredient name="resourceForgedIron" count="20" />
+        <ingredient name="toolCookingGrill" count="2" />
+		<ingredient name="modDyeBlack" count="1" />
+		<ingredient name="modDyeRed" count="1" />
+		<ingredient name="modDyeGreen" count="1" />
+    </recipe>
+	
+	<recipe name="workstationOvenBlack" count="1" scrapable="False" >
+        <ingredient name="resourceForgedIron" count="20" />
+        <ingredient name="toolCookingGrill" count="2" />
+		<ingredient name="modDyeBlack" count="1" />
+    </recipe>       
+	
+    <recipe name="workingKitchenSink" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+    <recipe name="workingWallMountSink" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	
+	 <recipe name="workingFountain" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+    <recipe name="workingDoubleFountain" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	
+	<recipe name="workingToilet01" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	<recipe name="workingToilet02" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	<recipe name="workingToilet03" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	<recipe name="workingUrinal" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	
+	<recipe name="workingWaterCooler" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	<recipe name="workingWaterCoolerSide" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	
+	<recipe name="workingSodaFountain" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	
+	<recipe name="workingCoffeeMaker" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+	<recipe name="workingCoffeeMakerCommercial" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>  	
+	 <recipe name="drinkJarEmpty" count="1" scrapable="False" >
+        <ingredient name="resourceBrokenGlass" count="15" />
+        </recipe>	
+</append>
+</Valmar>

@@ -1,0 +1,24 @@
+Key,Source,Context,Changes,English
+VMARHAMBURGERDesc,items,Food,New,It Has a good smell and looks tasty.
+
+VMARbaconEggSandwichDesc,items,Food,New,You made this good looking sandwich.
+
+VMARFishPieDesc,items,Food,New,The Can of Tuna Maybe rotten but you did a good job making this food!
+
+VMARHoneyHamDesc,items,Food,New,MmmHH Very good meal.
+
+VMARGrillSteakDesc,items,Food,New,Better then Grilled meat.
+
+VMARGrillSteakSandwichDesc,items,Food,New,You Made the Steak Even Better!
+
+VMARCANDYBARDesc,items,Food,New,This Candy not give you any benefits like the others but you will not gonna starve to death!
+
+VMARBiscuitDesc,items,Food,New,Handmade Biscuit Not the best But you cant die in starve.
+
+VMARBiscuitjamDesc,items,Food,New,Handmade Biscuit with jam Not the best But you cant die in starve.
+
+VMARRAMENNDesc,items,Food,New,You Can make this into a soup or you can eat it.
+
+VMARRamenSoupDesc,items,Food,New,Nice you made a bowl of Ramen Soup Not the best if you ask me.
+
+VMARHEalthDRINKDesc,items,Food,New,Drink This and Gain Your Health and Energy Back!

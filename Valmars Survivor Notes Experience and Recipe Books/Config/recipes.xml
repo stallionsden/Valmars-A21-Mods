@@ -1,0 +1,1201 @@
+<Valmar>
+<append xpath="/recipes">
+      <!--Survivor Notes Mod --> 
+	<recipe name="studyDesk" count="1" scrapable="False">
+    <ingredient name="resourceWood" count="85"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="officeChair01" count="1"/>	
+	</recipe>
+	<!-- ******************** SURVIVOR NOTES TO PERK BOOKS ******************************** -->
+  <recipe name="bookFiremansAlmanacHeat" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookFiremansAlmanacAxes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookFiremansAlmanacSpeed" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookFiremansAlmanacMolotov" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookFiremansAlmanacPrevention" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookFiremansAlmanacHarvest" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookFiremansAlmanacEquipment" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNightStalkerStealthDamage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNightStalkerSilentNight" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNightStalkerBlades" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningBlackStrap" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNightStalkerArchery" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNightStalkerTwilightThief" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNightStalkerSlumberParty" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookLuckyLooterDukes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookLuckyLooterAmmunition" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookLuckyLooterBrass" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookLuckyLooterLead" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookLuckyLooterBooks" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookLuckyLooterFood" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookLuckyLooterMedical" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookEnforcerDamage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookEnforcerApparel" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookEnforcerPunks" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookEnforcerIntimidation" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookEnforcerAPAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookEnforcerHPAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookEnforcerCriminalPursuit" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBatterUpFoulBalls" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBatterUpBigHits" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+  <recipe name="bookBatterUpStealingBases" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBatterUpKnockdown" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBatterUpSlowPitch" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBatterUpMaintenance" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBatterUpMetalChain" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookGreatHeistAdrenalineFall" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookGreatHeistGoldRush" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookGreatHeistClaimed" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookGreatHeistGems" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookGreatHeistMotionDetection" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookGreatHeistSafes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookGreatHeistSprintSneak" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookWasteTreasuresHoney" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookWasteTreasuresCoffins" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookWasteTreasuresAcid" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookWasteTreasuresWater" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookWasteTreasuresDoors" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookWasteTreasuresCloth" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookWasteTreasuresSinks" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNeedleAndThreadWinterWear" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNeedleAndThreadLegwear" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNeedleAndThreadFootwear" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNeedleAndThreadDesertWear" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNeedleAndThreadDusters" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNeedleAndThreadPufferCoats" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookNeedleAndThreadPockets" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookHuntingJournalBears" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookHuntingJournalWolves" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookHuntingJournalCoyotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookHuntingJournalMountainLions" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+  <recipe name="bookHuntingJournalDeer" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookHuntingJournalVultures" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookHuntingJournalSelfDefense" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningLuckyStrike" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningDiamondTools" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningCoffee" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningBlackStrap" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningPallets" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningAvalanche" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookArtOfMiningDamage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookRangersArrowRecovery" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookRangersExplodingBolts" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookRangersCripplingShot" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookRangersAPAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookRangersFlamingArrows" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookRangersForestGuide" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookRangersKnockdown" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookPistolPeteTakeAim" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookPistolPeteSwissKnees" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookPistolPeteSteadyHand" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookPistolPeteMaintenance" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookPistolPeteHPAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookPistolPeteAPAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookPistolPeteDamage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookShotgunMessiahDamage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookShotgunMessiahBreachingSlugs" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookShotgunMessiahLimbShot" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookShotgunMessiahSlugs" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookShotgunMessiahMaintenance" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookShotgunMessiahMagazine" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+  <recipe name="bookShotgunMessiahPartyStarter" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSniperDamage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSniperCripplingShot" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSniperHeadShot" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSniperReload" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSniperControlledBreathing" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSniperAPAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSniperHPAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookAutoWeaponsDamage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookAutoWeaponsUncontrolledBurst" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookAutoWeaponsMaintenance" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookAutoWeaponsDrumMag" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookAutoWeaponsRecoil" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookAutoWeaponsRagdoll" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookAutoWeaponsMachineGuns" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+   <recipe name="bookUrbanCombatLanding" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookUrbanCombatCigar" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookUrbanCombatSneaking" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookUrbanCombatJumping" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookUrbanCombatLandMines" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookUrbanCombatAdrenalineRush" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookUrbanCombatRoomClearing" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookTechJunkie1Damage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>  
+  <recipe name="bookTechJunkie2Maintenance" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookTechJunkie3APAmmo" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookTechJunkie4Shells" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookTechJunkie5Repulsor" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookTechJunkie6BatonCharge" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookTechJunkie7Hydraulics" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBarBrawling1BasicMoves" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>  
+   <recipe name="bookBarBrawling2DropABomb" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBarBrawling3KillerInstinct" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBarBrawling4FinishingMoves" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBarBrawling5AdrenalineHealing" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBarBrawling6RageMode" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookBarBrawling7BoozedUp" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSpearHunter1Damage" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>  
+  <recipe name="bookSpearHunter2Maintenance" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSpearHunter3Bleed" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSpearHunter4KillMove" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSpearHunter5RapidStrike" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSpearHunter6PenetratingShaft" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+    <recipe name="bookSpearHunter7QuickStrike" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="50" />
+  </recipe>
+  <!-- ******************** SURVIVOR NOTES TO PERK BOOKS ******************************** -->
+  <!-- ******************** SURVIVOR NOTES TO SCHEMATICS ******************************** -->
+ <recipe name="modGunBarrelExtenderSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunMuzzleBrakeSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunSoundSuppressorSilencerSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunLaserSightSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunFlashlightSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunScopeSmallSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunScopeMediumSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunScopeLargeSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunReflexSightSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+   <recipe name="modGunTriggerGroupSemiSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+   <recipe name="modGunTriggerGroupBurst3Schematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunTriggerGroupAutomaticSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+   <recipe name="modGunBipodSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunForegripSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+   <recipe name="modGunRetractingStockSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunDuckbillSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunChokeSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunMagazineExtenderSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modShotgunSawedOffBarrelSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunCrippleEmSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunBowPolymerStringSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modGunBowArrowRestSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunMeleeTheHunterSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modGunMeleeRadRemoverSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeTemperedBladeSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeSerratedBladeSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeWeightedHeadSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeStructuralBraceSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeErgonomicGripSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeFortifyingGripSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeClubBarbedWireSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeClubMetalSpikesSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeGraveDiggerSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeBunkerBusterSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeIronBreakerSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeWoodSplitterSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modMeleeClubBurningShaftSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorInsulatedLinerSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorCoolingMeshSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorImprovedFittingsSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorCustomizedFittingsSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorPlatingBasicSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorPlatingReinforcedSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorStoragePocketSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorDoubleStoragePocketSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorTripleStoragePocketSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorMuffledConnectorsSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorAdvancedMuffledConnectorsSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorImpactBracingSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+  <recipe name="modArmorBandolierSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorWaterPurifierSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modArmorHelmetLightSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modFuelTankSmallSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modFuelTankLargeSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modRoboticDroneCargoModSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modRoboticDroneMedicModSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modRoboticDroneHeadlampModSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modRoboticDroneArmorPlatingModSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modRoboticDroneMoraleBoosterModSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modVehicleFuelSaverSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modVehicleOffRoadHeadlightsSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modVehicleSuperChargerSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modVehicleExpandedSeatSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <recipe name="modVehicleReserveFuelTankSchematic" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="survivorNotes" count="25" />
+  </recipe>
+    <!-- ******************** SURVIVOR NOTES TO SCHEMATICS ******************************** -->
+  <!-- ******************** PERK BOOKS TO SURVIVOR NOTES ******************************** -->
+ <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookRangersArrowRecovery" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookRangersCripplingShot" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookRangersKnockdown" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookRangersFlamingArrows" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookRangersAPAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookRangersExplodingBolts" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookRangersForestGuide" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookArtOfMiningLuckyStrike" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookArtOfMiningDiamondTools" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookArtOfMiningCoffee" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookArtOfMiningBlackStrap" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookArtOfMiningPallets" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookArtOfMiningAvalanche" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookArtOfMiningDamage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookAutoWeaponsDamage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookAutoWeaponsRagdoll" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookAutoWeaponsMaintenance" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookAutoWeaponsRecoil" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookAutoWeaponsDrumMag" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookAutoWeaponsUncontrolledBurst" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookAutoWeaponsMachineGuns" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBatterUpFoulBalls" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBatterUpBigHits" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBatterUpStealingBases" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBatterUpKnockdown" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBatterUpSlowPitch" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBatterUpMaintenance" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBatterUpMetalChain" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookEnforcerAPAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookEnforcerApparel" count="2" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookEnforcerCriminalPursuit" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookEnforcerHPAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookEnforcerDamage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookEnforcerIntimidation" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookEnforcerPunks" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookFiremansAlmanacSpeed" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookFiremansAlmanacAxes" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookFiremansAlmanacEquipment" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookFiremansAlmanacPrevention" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookFiremansAlmanacHarvest" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookFiremansAlmanacHeat" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookFiremansAlmanacMolotov" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookGreatHeistAdrenalineFall" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookGreatHeistGoldRush" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookGreatHeistClaimed" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookGreatHeistGems" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookGreatHeistMotionDetection" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookGreatHeistSafes" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookGreatHeistSprintSneak" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookHuntingJournalBears" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookHuntingJournalCoyotes" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookHuntingJournalDeer" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookHuntingJournalMountainLions" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookHuntingJournalVultures" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookHuntingJournalWolves" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookHuntingJournalSelfDefense" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookLuckyLooterAmmunition" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookLuckyLooterBooks" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookLuckyLooterBrass" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookLuckyLooterDukes" count="2" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookLuckyLooterFood" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookLuckyLooterLead" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookLuckyLooterMedical" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNeedleAndThreadDesertWear" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNeedleAndThreadDusters" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNeedleAndThreadFootwear" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNeedleAndThreadLegwear" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNeedleAndThreadPockets" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNeedleAndThreadPufferCoats" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNeedleAndThreadWinterWear" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNightStalkerArchery" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNightStalkerBlades" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNightStalkerSilentNight" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNightStalkerSlumberParty" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNightStalkerStealthDamage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNightStalkerThiefAdrenaline" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookNightStalkerTwilightThief" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookPistolPeteAPAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookPistolPeteDamage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookPistolPeteHPAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookPistolPeteMaintenance" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookPistolPeteSteadyHand" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookPistolPeteSwissKnees" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookPistolPeteTakeAim" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookShotgunMessiahBreachingSlugs" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookShotgunMessiahDamage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookShotgunMessiahLimbShot" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookShotgunMessiahMaintenance" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookShotgunMessiahMagazine" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookShotgunMessiahPartyStarter" count="2" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookShotgunMessiahSlugs" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSniperAPAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSniperControlledBreathing" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSniperCripplingShot" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSniperDamage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSniperHeadShot" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSniperReload" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSniperHPAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookUrbanCombatAdrenalineRush" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookUrbanCombatCigar" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookUrbanCombatRoomClearing" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookUrbanCombatJumping" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookUrbanCombatLandMines" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookUrbanCombatLanding" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookUrbanCombatSneaking" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookWasteTreasuresAcid" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookWasteTreasuresCloth" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookWasteTreasuresCoffins" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookWasteTreasuresDoors" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookWasteTreasuresHoney" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookWasteTreasuresSinks" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookWasteTreasuresWater" count="2" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookTechJunkie1Damage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookTechJunkie2Maintenance" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookTechJunkie3APAmmo" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookTechJunkie4Shells" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookTechJunkie5Repulsor" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookTechJunkie6BatonCharge" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookTechJunkie7Hydraulics" count="2" />
+  </recipe>  
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBarBrawling1BasicMoves" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBarBrawling2DropABomb" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBarBrawling3KillerInstinct" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBarBrawling4FinishingMoves" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBarBrawling5AdrenalineHealing" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBarBrawling6RageMode" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookBarBrawling7BoozedUp" count="2" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSpearHunter1Damage" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSpearHunter2Maintenance" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSpearHunter3Bleed" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSpearHunter4KillMove" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSpearHunter5RapidStrike" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSpearHunter6PenetratingShaft" count="2" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="bookSpearHunter7QuickStrike" count="2" />
+  </recipe>
+  <!-- ******************** PERK BOOKS TO SURVIVOR NOTES ******************************** -->
+  <!-- ******************** SCHEMATICS TO SURVIVOR NOTES ******************************** -->
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunBarrelExtenderSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunMuzzleBrakeSchematic" count="4" />
+  </recipe>
+   <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunSoundSuppressorSilencerSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunLaserSightSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunFlashlightSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunScopeSmallSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunScopeMediumSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunScopeLargeSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunReflexSightSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunTriggerGroupSemiSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunTriggerGroupBurst3Schematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunTriggerGroupAutomaticSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunBipodSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunForegripSchematic" count="4" />
+  </recipe>
+   <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunRetractingStockSchematic" count="4" />
+  </recipe>
+   <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunDuckbillSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunChokeSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunMagazineExtenderSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modShotgunSawedOffBarrelSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunCrippleEmSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunBowPolymerStringSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunBowArrowRestSchematic" count="4" />
+  </recipe>
+   <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunMeleeTheHunterSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modGunMeleeRadRemoverSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeTemperedBladeSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeSerratedBladeSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeWeightedHeadSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeStructuralBraceSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeErgonomicGripSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeFortifyingGripSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeClubBarbedWireSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeClubMetalSpikesSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeGraveDiggerSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeBunkerBusterSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeIronBreakerSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeWoodSplitterSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modMeleeClubBurningShaftSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorInsulatedLinerSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorCoolingMeshSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorImprovedFittingsSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorCustomizedFittingsSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorPlatingBasicSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorPlatingReinforcedSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorStoragePocketSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorDoubleStoragePocketSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorTripleStoragePocketSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorMuffledConnectorsSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorAdvancedMuffledConnectorsSchematic" count="4" />
+  </recipe>
+  <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorImpactBracingSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorBandolierSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorWaterPurifierSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modArmorHelmetLightSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modFuelTankSmallSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modFuelTankLargeSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modRoboticDroneCargoModSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modRoboticDroneMedicModSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modRoboticDroneHeadlampModSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modRoboticDroneArmorPlatingModSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modRoboticDroneMoraleBoosterModSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modVehicleFuelSaverSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modVehicleOffRoadHeadlightsSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modVehicleSuperChargerSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modVehicleExpandedSeatSchematic" count="4" />
+  </recipe>
+    <recipe name="survivorNotes" count="1" craft_area="studyDesk" scrapable="False" >
+    <ingredient name="modVehicleReserveFuelTankSchematic" count="4" />
+  </recipe>
+   
+  <!-- ******************** SCHEMATICS TO SURVIVOR NOTES ******************************** -->
+  </append>
+</Valmar>

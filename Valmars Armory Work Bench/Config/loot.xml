@@ -1,0 +1,22 @@
+<Valmar>
+<append xpath="/lootcontainers/lootgroup[@name='groupToolsT2']">	
+		<item name="weldingTorch" count="0,1" loot_prob_template="veryLow" />
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs04']">	
+		<item name="weldingTorch" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupCarWeaponsTools']">	
+		<item name="weldingTorch" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupApparelClothes']">	
+		<item name="sewingKit" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupJunk01']">	
+		<item name="sewingKit" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupBackpacks01']">	
+		<item name="sewingKit" count="0,1" loot_prob_template="veryLow" />
+</append>
+</Valmar>
+

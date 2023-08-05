@@ -1,0 +1,7 @@
+<Valmar>
+<append xpath="/lootcontainers">
+ <!--Working Oven and Sink -->
+<lootcontainer name="workingOvenSink" size="10,9" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" >
+	</lootcontainer>
+</append> 
+</Valmar>

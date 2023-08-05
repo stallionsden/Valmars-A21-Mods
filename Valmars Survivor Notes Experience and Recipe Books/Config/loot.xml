@@ -1,0 +1,43 @@
+<Valmar>
+	<!-- LOOT GROUPS -->
+<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralCommon']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='perkBooks']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>	
+<append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot01']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupForge01']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot01']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot03']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>	
+<append xpath="/lootcontainers/lootgroup[@name='groupJunk01']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupGarbage']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupBackpacks01']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupPopNPillsCrate01']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']" >
+	 <item name="survivorNotes" count="0,1" loot_prob_template="veryLow" />
+	</append>
+	<!-- LOOT GROUPS -->
+</Valmar>

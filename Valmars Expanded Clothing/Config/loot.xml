@@ -1,0 +1,26 @@
+<Valmar>
+<append xpath="/lootcontainers/lootgroup[@name='groupWarmClothes']">	
+		<item name="winterBoots" count="0,1" loot_prob_template="veryLow"/>
+		<item name="winterPants" count="0,1" loot_prob_template="veryLow"/>
+		<item name="winterShirt" count="0,1" loot_prob_template="veryLow"/>
+		<item name="winterGloves" count="0,1" loot_prob_template="veryLow"/>
+		<item name="woolScarf" count="0,1" loot_prob_template="veryLow"/>
+		<item name="winterMask" count="0,1" loot_prob_template="veryLow"/>
+		</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupApparelClothes']">	
+		<item name="hoodPurple" count="0,1" loot_prob_template="veryLow"/>
+		<item name="hoodRed" count="0,1" loot_prob_template="veryLow"/>
+		<item name="hoodGreen" count="0,1" loot_prob_template="veryLow"/>
+		<item name="hoodBlue" count="0,1" loot_prob_template="veryLow"/>
+		<item name="hoodBrown" count="0,1" loot_prob_template="veryLow"/>
+		<item name="hoodBlack" count="0,1" loot_prob_template="veryLow"/>
+		<item name="footballHelmetRed" count="0,1" loot_prob_template="veryLow"/>
+		<item name="footballHelmetGreen" count="0,1" loot_prob_template="veryLow"/>
+		<item name="footballHelmetBlack" count="0,1" loot_prob_template="veryLow"/>
+		<item name="footballHelmetBlue" count="0,1" loot_prob_template="veryLow"/>
+		<item name="footballHelmetLime" count="0,1" loot_prob_template="veryLow"/>
+		<item name="pimpHat" count="0,1" loot_prob_template="veryLow"/>
+		<item name="hoodCamo" count="0,1" loot_prob_template="veryLow"/>
+		<item name="bandanaCamo" count="0,1" loot_prob_template="veryLow"/>
+		</append>
+</Valmar>
